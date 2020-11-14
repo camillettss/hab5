@@ -1,0 +1,47 @@
+{
+    "commands":[
+        "select",
+        "show",
+        "notes",
+        "help",
+        "bye",
+        "reset",
+        "shop"
+    ],
+    "cheatsheet":{
+        "select":{
+            "params":["-m", "--method"],
+            "output":"seleziona un oggetto usando un metodo specifico",
+            "notes":"puoi selezionare per id o pos, id->botID, pos->x,y"
+        }, "show":{
+            "params":["id", "pos", "null"],
+            "output":"mostra uno specifico valore sulla mappa",
+            "notes":"non puoi mostrare sia pos che id insieme."
+        },
+        "notes":{
+            "params":["add","append","new", "show"],
+            "output":"aggiungi o mostra una nota",
+            "notes":"le note sono stringhe salvate per dopo, magari un algoritmo."
+        },
+        "help":{
+            "params":[],
+            "output":"mostra la lista di comandi.",
+            "notes":""
+        },
+        "bye":{
+            "params":[],
+            "output":"go back to title screen",
+            "notes":""
+        },
+        "reset":{
+            "params":["-w"],
+            "output":"delete a saved variable ( specified by -w)",
+            "notes":"-w values: * for everything, usrname or usr for change ur name and score to set score=0"
+        },
+        "shop":{
+            "params":["-buy", "-sw", "-e"],
+            "output":"entra nello shop o compra direttamente qualcosa.",
+            "notes":"se -sw è specificato mostra la vetrina. -buy precede il tool da comprare. usa -e per non entrare nello shop"
+        }
+    }
+}

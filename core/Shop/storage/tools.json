@@ -1,0 +1,33 @@
+{
+    "0":{
+        "mapstates": {
+            "params": [
+                "-ot"
+            ],
+            "output": "show bot states on the map",
+            "notes": "-ot if specified shows only unlocked bots",
+            "prize": "3",
+            "update_path": "core/cmds.json"
+        }
+    },
+    "1": {
+        "crack": {
+            "params": [
+                "-port"
+            ],
+            "output": "bypass a port without an hash",
+            "notes": "-port port to bypass",
+            "prize": "10",
+            "update_path": "core/Characters/cmds.json"
+        },
+        "skip":{
+            "params": [
+                "-man"
+            ],
+            "output": "bypass a port without an hash",
+            "notes": "-port port to bypass",
+            "prize": "10",
+            "update_path": "core/Characters/cmds.json"
+        }
+    }
+}

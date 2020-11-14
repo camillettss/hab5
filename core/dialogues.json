@@ -1,0 +1,17 @@
+{
+    "it": [
+        [
+            "Hey, sei nuovo da queste parti vero? io mi chiamo Hendrix e sono l'ex comandante di questa base. tu come ti chiami?",
+            "$input usrname",
+            "ho gia' sentito il tuo nome.. sei il nuovo comandante? fantastico. piacere di conoscerti {usrname}.",
+            "$timedelay 1",
+            "aspettavo proprio te, ti porto subito a fare un tour.",
+            "$keydelay \npress any key..",
+            "$cls 0"
+        ],
+        [
+            ""
+        ]
+    ],
+    "en": []
+}

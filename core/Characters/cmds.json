@@ -1,0 +1,157 @@
+{
+    "bscommands":[
+        "move",
+        "atk", "attack",
+        "retrieve",
+        "exit", "bye",
+        "dmg", "fire",
+        "remotehack", "rmh",
+        "help",
+        "map"
+    ],
+    "BSSheet":{
+        "move": {
+            "params": [
+                "-pos"
+            ],
+            "output": "spostati in pos se corrisponde ad un tile adiacente.",
+            "notes":"-pos puo' anche non essere specificato, la posizione va scritta con questa formula: x,y (senza spazi)"
+        },
+        "atk": {
+            "params": [
+                "-bot", "-port", "-pos"
+            ],
+            "output": "ritorna gli hash decodificati di -bot, port e' opzionale",
+            "notes": "specifica sempre -bot e -port con la stdsyntax (-bot bot -pos pos -port port)"
+        },
+        "retrieve": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "select": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "dmg": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "fire": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "remotehack": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "rmh": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "help": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "attack": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "map": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        }
+    },
+    "commands": [
+        "help",
+        "hack",
+        "scan",
+        "destroy",
+        "shutdown",
+        "hash",
+        "translater",
+        "encoder",
+        "decoder",
+        "exit",
+        "bshell",
+        "crack",
+        "info"
+    ],
+    "cheatsheet": {
+        "hack": {
+            "params": [
+                "port"
+            ],
+            "output": "se port è sbloccata usala per disattivare i sistemi di sicurezza del bot"
+        },
+        "scan": {
+            "params": [
+                "port"
+            ],
+            "output": "restituisce una lista delle porte attive o disabilitate",
+            "notes": "se port è specificato scansionala"
+        },
+        "destroy": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "shutdown": {
+            "params": [],
+            "output": "elimina il bot",
+            "notes": "devi avere l'accesso al bot, ottienilo hackerandolo"
+        },
+        "hash": {
+            "params": [
+                "-res",
+                "-port"
+            ],
+            "output": "usa una chiave per bypassare una porta o ottieni le hash della chiave",
+            "notes": "-res bypassa una porta sfruttando un hash decodificato, -port p mostra l'hash codificato di p"
+        },
+        "encoder": {
+            "params": [
+                "-text"
+            ],
+            "output": "codifica una stringa",
+            "notes": "-text t codifica t"
+        },
+        "decoder": {
+            "params": [
+                "-text"
+            ],
+            "output": "codifica una stringa",
+            "notes": "-text t codifica t"
+        },
+        "translater": {
+            "params": [
+                "-text",
+                "-mode"
+            ],
+            "output": "codifica o decodifica una stringa",
+            "notes": "-text t codifica/decodifica t, -mode 1 = codifica, -mode 2 = decodifica"
+        },
+        "exit": {
+            "params": [],
+            "output": "torna alla mappa",
+            "notes": ""
+        },
+        "crack": {
+            "params": [
+                "-port"
+            ],
+            "output": "bypass a port without an hash",
+            "notes": "-port port to bypass",
+            "prize": "10",
+            "update_path": "core/Characters/cmds.json"
+        }
+    }
+}

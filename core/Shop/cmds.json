@@ -1,0 +1,42 @@
+{
+    "commands":[
+        "buy","shop",
+        "exit","bye",
+        "help",
+        "swindow", "show",
+        "desc", "info",
+        "regive"
+    ], "cheatsheet": {
+        "buy":{
+            "params":["-tool"],
+            "output":"acquista un tool usando i propri punti"
+        }, "shop":{
+            "params":["-tool"],
+            "output":"acquista un tool usando i propri punti"
+        }, "exit":{
+            "params":[""],
+            "output":"torna alla mappa"
+        }, "bye":{
+            "params":[""],
+            "output":"torna alla mappa"
+        }, "help":{
+            "params":["-tool"],
+            "output":"ritorna la docstring di un tool, senza parametri elenca i comandi."
+        }, "swindow":{
+            "params":["-q"],
+            "output":"mostra tutti i tool del negozio, se q è specificato mostra solo quelli acquistabili"
+        }, "show":{
+            "params":["-q"],
+            "output":"mostra tutti i tool del negozio, se q è specificato mostra solo quelli acquistabili"
+        }, "desc":{
+            "params":["-tool"],
+            "output":"mostra la docstring di tool"
+        }, "info":{
+            "params":["-tool"],
+            "output":"mostra la docstring di tool, se non viene specificato alcun parametro scrive la docstring di tutti."
+        }, "regive":{
+            "params":["-tool"],
+            "output":"vendi un tool alla metà del suo prezzo"
+        }
+    }
+}
