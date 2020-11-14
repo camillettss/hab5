@@ -41,7 +41,7 @@
         "shop":{
             "params":["-buy", "-sw", "-e"],
             "output":"entra nello shop o compra direttamente qualcosa.",
-            "notes":"se -sw è specificato mostra la vetrina. -buy precede il tool da comprare. usa -e per non entrare nello shop"
+            "notes":"se -sw e' specificato mostra la vetrina. -buy precede il tool da comprare. usa -e per non entrare nello shop"
         }
     }
 }
