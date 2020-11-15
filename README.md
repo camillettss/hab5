@@ -1,3 +1,32 @@
+# installation
+## on mobile (only Android Devices):
+da Google Play scaricate Termux, apritelo e scrivete
+```linux
+pkg install git
+```
+terminata l'installazione scrivete:
+```linux
+pkg install python
+```
+finito anche questo potete eseguire hab! scrivete
+```linux
+cd hab5 && python main.py
+```
+per avviare il gioco, se volete creare potete creare un alias così che aperto termux basterà scrivere hab per eseguire lo script
+### creare un alias
+scrivete
+```linux
+nano /data/data/com.termux/files/usr/etc/bash.bashrc
+```
+e alla fine del file aggiungete questa riga:
+```linux
+alias hab="cd && cd hab5 && python main.py"
+```
+ora il file dovrebbe essere simile o uguale a questo:
+```
+non ho sbatti, dopo copio e incollo.
+```
+
 <h1>How To Run</h1>
 se non si dispone di python 3.x sul proprio computer installarlo da https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
 
