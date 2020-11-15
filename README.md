@@ -26,6 +26,19 @@ ora il file dovrebbe essere simile o uguale a questo:
 ```
 non ho sbatti, dopo copio e incollo.
 ```
+## on Windows
+ scarica questi file andado su Code->download zip. fatto questo estrarre i file sul desktop. 
+ 
+ aprite il prompt dei comandi cercando cmd nella barra di ricerca in basso a sinistra e cliccate invio, adesso scrivete 
+ ```linux
+ cd Desktop/hab5-main
+ ```
+ e poi
+ ```
+ python main.py
+ ```
+ se python non è installato seguite il procedimento qui sotto e ricordate di cliccare "Add to PATH" durante l'installazione.
+
 
 <h1>How To Run</h1>
 se non si dispone di python 3.x sul proprio computer installarlo da https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
