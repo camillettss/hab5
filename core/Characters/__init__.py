@@ -48,8 +48,10 @@ def spliceRandNumber(array=None):
 
 def newCode():
     global sequences
+    global numbers
     code=[None,None,None]
     sequences=[[], [], [], [], []]
+    numbers=[i for i in range(0,10)]
     codeNumbers=[spliceRandNumber() for _ in range(3)]
 
     sequences[0] = [codeNumbers[0], spliceRandNumber(), spliceRandNumber()]
